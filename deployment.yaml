@@ -6,7 +6,7 @@ metadata:
   name: nginx-deployment
   namespace: manuel-spin
 spec:
-  replicas: 6
+  replicas: 8
   selector:
     matchLabels:
       app: nginx
